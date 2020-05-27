@@ -17,7 +17,7 @@ body {
 
     /* Parallax background */
     position: relative;
-    background-image: url(../img/background-img.jpg);
+    background-image: url(./img/background-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

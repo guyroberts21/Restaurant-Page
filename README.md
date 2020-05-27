@@ -1,5 +1,5 @@
 # Restaurant-Page
 ### First Time using webpack
-### Practicing my DOM ability - see the minimal HTML
+#### Pretty much everything has been rendered to the HTML via JavaScript
 
 Try it [here](https://guyroberts21.github.io/Restaurant-Page/)

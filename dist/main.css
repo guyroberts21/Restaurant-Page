@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    /* Make sure the image takes up fullscreen width */
+    width: 100vw;
+    height: 100vh;
+
+    /* Parallax background */
+    position: relative;
+    background-image: url(../img/background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Dampener for image */
+#content {
+    position: absolute;
+    background-color: rgba(97, 86, 76, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Rendered styling */
+
+#logo {
+    position: relative;
+    left: 1em;
+    top: 0.5em;
+    cursor: pointer;
+}
+
+.restaurant-name {
+    font-family: 'The Girl Next Door', cursive;
+    font-size: 1.2em;
+    position: relative;
+    left: 2em;
+    top: -0.5em;
+}
+
+/* Position text in middle of screen */
+.center-text-container {
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+/* Nav */
+.top-navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.top-navigation li {
+    padding: 0.2em 1.5em;
+    border: 2px solid #fff;
+    margin-right: 3em;
+    cursor: pointer;
+}
+
+.top-navigation li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.1s ease-in-out;
+}

@@ -1,5 +1,5 @@
-import { render } from './main-page';
+import { renderMain } from './main-page';
 
-render();
+renderMain();
 
 console.log('Testing 1, 2, 3');

@@ -1,4 +1,4 @@
-export function render() {
+export function renderMain() {
     const content = document.getElementById('content');
 
     // Center text

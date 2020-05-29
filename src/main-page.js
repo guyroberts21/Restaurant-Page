@@ -16,7 +16,7 @@ export function renderMain() {
     // Logo 
     const logo = document.createElement('img');
     logo.id = 'logo';
-    logo.src = '../dist/img/logo.png';
+    logo.src = './img/logo.png';
     home.appendChild(logo);
 
     // Restaurant

@@ -35,6 +35,12 @@ body {
 }
 
 /* Rendered styling */
+#main {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px auto;
+    width: 1500px;
+}
 
 #logo {
     position: relative;
@@ -49,6 +55,7 @@ body {
     position: relative;
     left: 2em;
     top: -0.5em;
+    cursor: pointer;
 }
 
 /* Position text in middle of screen */
@@ -56,7 +63,6 @@ body {
     position: fixed; /* or absolute */
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
     transform: translate(-50%, -50%);
 }
 
@@ -82,12 +88,38 @@ body {
     transition: background-color 0.1s ease-in-out;
 }
 
+.menu,
+#about-info,
+#contact-info {
+    background-color: rgba(120, 92, 83, 0.7);
+}
 
 
 /* Menu */
-.breakfast-items,
-.lunch-items,
-.dinner-items {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.menu {
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    line-height: 2.5;
+}
+
+/* About page */
+#about-info {
+    font-size: 1.1em;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.7;
+    padding: 1em;
+}
+
+/* Contact Page */
+#contact-info {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8;
+}
+
+#contact-info ul li {
+    list-style-type: none;
 }
